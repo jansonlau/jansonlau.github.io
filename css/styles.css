@@ -1,15 +1,25 @@
 html, body {
-  background-color: #e84195;
-  color: #fff;
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 28px;
+  background-color: #00ffff;
+  /*background-color: black;*/
+  color: #fff; /*text color*/
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 26px;
   font-weight: 500;
   height: 100%;
   margin: 0;
   overflow: hidden;
   padding: 0;
   /*font: 500 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-  text-align: center; }
+  text-align: center; 
+
+  opacity: 1;
+  transition: 13s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
 
 a:link    {
   color: white; }
@@ -20,7 +30,7 @@ a:visited {
 a:hover   {
   color: white;
   text-shadow: 0px 0px 5px rgba(0,0,0,.2);
- }
+  opacity: 0.7; }
 
 a:active  {
   color: white; }
@@ -143,7 +153,7 @@ a:active  {
   border-radius: 160px; }
 
 h1 {
-  background: url("lau.png") no-repeat;
+  background: url("../img/lau.png") no-repeat;
   background-position: center center;
   background-size: 400px 260px;
   height: 260px;
@@ -155,11 +165,19 @@ h1 {
   text-indent: -100000px;
   width: 100%; }
 
+h6 {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 350px;
+  width: 100%;
+  font-weight: lighter; }
+
 footer {
   bottom: 0;
   position: absolute;
-  padding-bottom: 60px;
-  width: 100%; }
+  padding-bottom: 80px;
+  width: 100%; 
+  border-radius: 50%; }
 
 footer .app-store {
   padding-right: 20px; }
