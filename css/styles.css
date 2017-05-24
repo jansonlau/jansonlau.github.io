@@ -166,10 +166,10 @@ h1 {
   width: 100%; }
 
 h6 {
-  bottom: 0;
   position: absolute;
-  padding-bottom: 350px;
-  width: 100%;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   font-weight: lighter; }
 
 footer {
