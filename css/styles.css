@@ -1,5 +1,5 @@
 html, body {
-  background-color: #00ffff;
+  background-color: #0077be;
   /*background-color: black;*/
   color: #fff; /*text color*/
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ html, body {
   text-align: center; 
 
   opacity: 1;
-  transition: 13s opacity;
+  transition: 3s opacity;
 }
 
 body.fade-out {
